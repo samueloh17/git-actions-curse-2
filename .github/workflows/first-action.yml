@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest 
     steps: 
       - name : print enter 
-        run : echo "Hello word! 
+        run : echo "Hello word!"
       - name: print bye
         run : echo "Done Bye"
     
