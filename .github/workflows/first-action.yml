@@ -1,0 +1,12 @@
+name : First action 
+
+on: workflow_dispatch
+job: 
+  first-job: 
+    runs-on: ubuntu-lates 
+    steps: 
+      - name : print enter 
+        run : echo "Hello word! 
+      - name: print bye
+        run : echo "Done Bye"
+    
